@@ -11,7 +11,7 @@ name = "frustum"
 crate-type = ["cdylib"]
 
 [dependencies]
-frustum-core = { git = "https://github.com/gcol33/frustum.git", tag = "v0.1.0" }
-frustum-render = { git = "https://github.com/gcol33/frustum.git", tag = "v0.1.0" }
+frustum-core = "0.1.0"
+frustum-render = "0.1.0"
 pyo3 = { version = "0.22", features = ["extension-module"] }
 numpy = "0.22"
