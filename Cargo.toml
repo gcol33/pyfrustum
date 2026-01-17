@@ -11,8 +11,7 @@ name = "frustum"
 crate-type = ["cdylib"]
 
 [dependencies]
-# For development, use local paths (switch to git/crates.io for release)
-frustum-core = { path = "../frustum/crates/frustum-core" }
-frustum-render = { path = "../frustum/crates/frustum-render" }
+frustum-core = { git = "https://github.com/gcol33/frustum.git", tag = "v0.1.0" }
+frustum-render = { git = "https://github.com/gcol33/frustum.git", tag = "v0.1.0" }
 pyo3 = { version = "0.22", features = ["extension-module"] }
 numpy = "0.22"

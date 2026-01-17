@@ -10,6 +10,14 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT OR Apache-2.0"}
 keywords = ["visualization", "3d", "scientific", "gpu", "rendering"]
+authors = [
+    {name = "Gilles Colling", email = "gilles.colling@kuleuven.be"}
+]
+
+[project.urls]
+Homepage = "https://github.com/gcol33/pyfrustum"
+Repository = "https://github.com/gcol33/pyfrustum"
+Issues = "https://github.com/gcol33/pyfrustum/issues"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
