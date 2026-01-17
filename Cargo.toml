@@ -1,0 +1,18 @@
+[package]
+name = "pyfrustum"
+version = "0.1.0"
+edition = "2021"
+description = "Python bindings for Frustum GPU rendering framework"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/gcol33/pyfrustum"
+
+[lib]
+name = "frustum"
+crate-type = ["cdylib"]
+
+[dependencies]
+# For development, use local paths (switch to git/crates.io for release)
+frustum-core = { path = "../frustum/crates/frustum-core" }
+frustum-render = { path = "../frustum/crates/frustum-render" }
+pyo3 = { version = "0.22", features = ["extension-module"] }
+numpy = "0.22"
