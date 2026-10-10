@@ -2,12 +2,6 @@
 
 GPU-accelerated scientific 3D visualization for Python.
 
-## Requirements
-
-- Python 3.8+
-- A GPU with Vulkan, Metal, or DX12 support
-- Rust toolchain (for building from source)
-
 ## Installation
 
 ```bash
@@ -25,6 +19,12 @@ git clone https://github.com/gcol33/pyfrustum.git
 cd pyfrustum
 maturin develop --release
 ```
+
+## Requirements
+
+- Python 3.8+
+- A GPU with Vulkan, Metal, or DX12 support
+- Rust toolchain (for building from source)
 
 ## Quick Start
 
